@@ -9,6 +9,12 @@
 a:any-link {
     color: white;
     background-color: transparent; 
+    transition: 0.3s;
+}
+
+a:any-link:hover {
+    color: rgb(133, 133, 133);
+    background-color: transparent; 
 }
 
 i {
