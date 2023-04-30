@@ -28,11 +28,3 @@ header {
     margin-top: 13px;
     margin-right: 10px;
 }
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    left: 565px;
-}
