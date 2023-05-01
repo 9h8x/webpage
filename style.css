@@ -34,3 +34,11 @@ header {
     margin-top: 13px;
     margin-right: 10px;
 }
+
+.catEmoji {
+    height: auto;
+    float: right;
+    margin-top: 25px;
+    margin-right: 500px;
+    opacity: 10;
+}
