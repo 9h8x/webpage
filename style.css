@@ -1,20 +1,35 @@
+@media (prefers-color-scheme: light) {
+    a:any-link {
+        color: rgb(0, 0, 0);
+        background-color: transparent; 
+        transition: 0.3s;
+    }
+    
+    a:any-link:hover {
+        color: rgb(63, 63, 63);
+        background-color: transparent; 
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    a:any-link {
+        color: white;
+        background-color: transparent; 
+        transition: 0.3s;
+    }
+    
+    a:any-link:hover {
+        color: rgb(133, 133, 133);
+        background-color: transparent; 
+    }
+}
+
 .title {
     margin-bottom: -10px;
 }
 
 .subtitle {
     margin-bottom: 10px;
-}
-
-a:any-link {
-    color: white;
-    background-color: transparent; 
-    transition: 0.3s;
-}
-
-a:any-link:hover {
-    color: rgb(133, 133, 133);
-    background-color: transparent; 
 }
 
 i {
