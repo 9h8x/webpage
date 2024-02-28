@@ -175,7 +175,7 @@ backdrop-filter: blur(4px);
   margin-top: 750px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1440px) {
 
   .Btn2 {
     margin-top: 5px;
@@ -186,7 +186,7 @@ backdrop-filter: blur(4px);
   }
 
   .pfp {
-    margin-top: 100px;
+    margin-top: 30%;
   }
 }
 
