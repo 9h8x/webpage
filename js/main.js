@@ -1,3 +1,5 @@
+// Animated Favicon from faviconvideo.com //
+
 setTimeout(() => {
     var favicon_video_image_counter = 0;
     var favicon_video_icon_tag = document.querySelector("link[rel='icon']");
@@ -38,6 +40,8 @@ setTimeout(() => {
         else favicon_video_image_counter++;
     }, 100);
 }, 2000);
+
+// Particles.js Config //
 
 particlesJS("particles-js", {
     "particles": {

@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="/js/main.js"></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://kit.fontawesome.com/01a6cdc13f.js" crossorigin="anonymous"></script>
     <title>Webpage!</title>
 </head>
-    <body>
-        <div id="particles-js"></div>
-        <div class='testInside'>
-            <img class='pfp' src="https://github.com/sackjitarjuan.png" alt="si" srcset="">
-            <p>Juan Sack</p>
-            
-            <button class="Btn" onclick="location.href='https://github.com/sackjitarjuan'">
-                <span class="svgContainer">
-                    <i class="fa-brands fa-github fa-lg" style="color: #feffff;"></i>
-                <span class="BG"></span>
-            </button>
 
-            <button class="Btn2" onclick="location.href='https://instagram.com/sackjitarjuan'">
-                <span class="svgContainer2">
-                    <i class="fa-brands fa-instagram fa-lg" style="color: #feffff;"></i>
-                <span class="BG2"></span>
-            </button>
+<body>
 
-            <p align="center">
-                <a href="https://open.spotify.com/user/9rw7t8m3qu4guyctak6mt43lj">
-                <img class="spotifyWidget" src="https://spotify-github-profile.vercel.app/api/view?uid=9rw7t8m3qu4guyctak6mt43lj&cover_image=false&theme=novatorem&show_offline=true&bar_color=&bar_color_cover=false"></a>
-            </p>                      
-        </div>
-        <p align="center" class="spotifyAligner">
+    <!-- Particles.js -->
+
+    <div id="particles-js"></div>
+
+    <!-- Main Window -->
+    <div class='floatingWindow'>
+
+        <!-- Information -->
+
+        <img class='pfp' src="https://github.com/sackjitarjuan.png" alt="si" srcset="">
+        <p>Juan Sack</p>
+
+        <!-- Github Button -->
+
+        <button class="button" onclick="location.href='https://github.com/sackjitarjuan'">
+            <span class="iconContainer">
+                <i class="fa-brands fa-github fa-lg" style="color: #feffff;"></i>
+                <span class="iconBackground"></span>
+        </button>
+
+        <!-- Instagram Button -->
+
+        <button class="button2" onclick="location.href='https://instagram.com/sackjitarjuan'">
+            <span class="iconContainer2">
+                <i class="fa-brands fa-instagram fa-lg" style="color: #feffff;"></i>
+                <span class="iconBackground2"></span>
+        </button>
+
+        <!-- Discord Button -->
+
+        <button class="button3" onclick="location.href='https://discordapp.com/users/900035490797994035'">
+            <span class="iconContainer3">
+                <i class="fa-brands fa-discord fa-lg" style="color: #feffff;"></i>
+                <span class="iconBackground3"></span>
+        </button>
+
+        <!-- Spotify Widget For PC -->
+
+        <p align="center">
             <a href="https://open.spotify.com/user/9rw7t8m3qu4guyctak6mt43lj">
-            <img class="spotifyWidgetMobile" src="https://spotify-github-profile.vercel.app/api/view?uid=9rw7t8m3qu4guyctak6mt43lj&cover_image=false&theme=novatorem&show_offline=true&bar_color=&bar_color_cover=false"></a>
-        </p> 
-    </body> 
+                <img class="spotifyWidget"
+                    src="https://spotify-github-profile.vercel.app/api/view?uid=9rw7t8m3qu4guyctak6mt43lj&cover_image=false&theme=novatorem&show_offline=true&bar_color=&bar_color_cover=false"></a>
+        </p>
+    </div>
+
+    <!-- Spotify Widget for mobile phones -->
+
+    <p align="center">
+        <a href="https://open.spotify.com/user/9rw7t8m3qu4guyctak6mt43lj">
+            <img class="spotifyWidgetMobile"
+                src="https://spotify-github-profile.vercel.app/api/view?uid=9rw7t8m3qu4guyctak6mt43lj&cover_image=false&theme=novatorem&show_offline=true&bar_color=&bar_color_cover=false"></a>
+    </p>
+
+    <!-- Particles.js | Particles Config | Animated Favicon -->
     <script src="/js/particles.js"></script>
     <script src="/js/main.js"></script>
+    
+</body>
 </html>
