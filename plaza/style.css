@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    height: 350px;
+    width: 370px;
+    max-width: 100%;
+    max-height: 50%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    text-align: center;
+    margin: 1vh auto; /* Center vertically and give some top margin */
+    max-width: 90%; /* Ensure the text doesn't overflow on smaller screens */
+}
+
+.bienvenidos {
+    font-size: 5.3vh;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    /* Adjust font size for larger screens if needed */
+    h1 {
+        font-size: 2vw;
+    }
+    .container img {
+        max-width: 100%;
+        max-height: 50%;
+        width: 350px;
+    }
+}
